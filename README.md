@@ -45,18 +45,18 @@ Approximately 100 sensors are positioned on the walls, ceiling, and floor and ar
 # Alternative solutions
 
 ## Velostat
-Velostat is a pressure-sensitive material that changes its electrical resistance when subjected to pressure. In this scenario, velostat could be used as a replacement for the IR sensors in the Twister room. The velostat material would be placed behind the clear and frosted Plexiglas plates and would detect changes in electrical resistance caused by a hand or foot being pressed against the plates. The role of the velostat is to short two conductive surfaces and can be set up in a number of ways. The image below shows how velostat can short the left and right side of the PCB if pressure is applied to the foam tape. 
+Velostat is a pressure-sensitive material that changes its electrical resistance when subjected to pressure. In this scenario, velostat could be used as a replacement for the IR sensors in the Twister room. The velostat material would be placed behind the clear and frosted Plexiglas plates and would detect changes in electrical resistance caused by a hand or foot being pressed against the plates. The role of the velostat is to shorten two conductive surfaces and can be set up in several ways. The image below shows how velostat can short the left and right sides of the PCB if pressure is applied to the foam tape. 
 
 ![](https://4.bp.blogspot.com/-65hNUrMq_u4/V1m0NUIfbPI/AAAAAAAAP-U/uNxNeRBFj_QsESKMoGeGz29m-rvurAdjQCLcB/s1600/pressure%2Bsensor%2Bprototype.png)
 
-Another way to do this is to place a conductive wire (copper etc..) on each side of the velostat film, as show in the image below. 
+Another way to do this is to place a conductive wire (copper etc..) on each side of the velostat film, as shown in the image below. 
 
 ![](https://i.imgur.com/gjn0nrq.jpg)
 
-And the following circuit show how we would connect it to a microcontroller. 
+And the following circuit shows how we would connect it to a microcontroller. 
 ![](https://i.imgur.com/kr4XzSI.png)
 
-Reading the analog value of GPIO is also a straight forward task. The following code snippet reads the analog value of the pin, converts it to volts and prints the voltage to the serial monitor. 
+Reading the analog value of GPIO is also a straightforward task. The following code snippet reads the analog value of the pin, converts it to volts, and prints the voltage to the serial monitor. 
 
 ```cpp
 // the setup routine runs once when you press reset:
