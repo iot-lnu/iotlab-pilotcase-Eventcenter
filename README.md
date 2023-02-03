@@ -46,6 +46,6 @@ void loop() {
 ```
 
 ## A second option
-FSR (Force Sensitive Resistor) sensors are resistors that change their resistance in response to applied pressure or force. 
+FSR (Force Sensitive Resistor) sensors are resistors that change their resistance in response to applied pressure or force. These could also be utilized similarly.
 
 In comparison to velostat, FSRs are typically more sensitive and responsive to applied pressure compared to velostat, making them more suitable for applications that require precise touch sensing. On the other hand, velostat is cheaper and easier to manufacture compared to FSRs, making it a good option for large-area pressure sensing applications.
